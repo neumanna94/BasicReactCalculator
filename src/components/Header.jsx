@@ -26,6 +26,14 @@ function Header(){
           }
           .header ul li a {
             text-decoration: none;
+            color: white;
+            font-size: 24px;
+          }
+
+          .header ul li a:hover {
+            color: orange;
+            font-size: 24px;
+            opacity: .8;
           }
       `}</style>
     <h1> Simple Calculator in React </h1>
