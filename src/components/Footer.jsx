@@ -14,7 +14,6 @@ function Footer(){
             left: 0;
             width: 100%;
             height: 25px;
-            color: white;
             background-color: #2ccaef;
             text-align: center;
             opacity: 0.8;
@@ -22,8 +21,14 @@ function Footer(){
             font-size: 16px;
             font-weight: bold;
           }
+          .footer a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+          }
       `}</style>
-    Alexander Neumann @ Epicodus 2018
+    <a href='https://www.github.com/neumanna94'>Alexander Neumann @ Epicodus 2018</a>
     </div>
   )
 }

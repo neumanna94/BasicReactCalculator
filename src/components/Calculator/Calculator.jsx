@@ -7,8 +7,8 @@ function Calculator(){
 
         calculator {
         display: grid;
-        margin-right: 31%;
-        margin-left: 30%;
+        margin-right: 21%;
+        margin-left: 20%;
         box-shadow: 0 0  2px black;
 
         grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
@@ -36,6 +36,7 @@ function Calculator(){
         .inputField {
           grid-column-start: 1;
           grid-column-end: 8;
+          box-shadow: 0 0  2px black;
         }
         .box:hover {
           opacity: 0.85;
@@ -72,7 +73,7 @@ function Calculator(){
       <div className="box number">2</div>
       <div className="box number">3</div>
       <div className="box">-</div>
-      <div className="box">Ans</div>
+      <div className="box"></div>
       <div className="box">EXP</div>
       <div className="box">x^y</div>
       <div className="box number">0</div>

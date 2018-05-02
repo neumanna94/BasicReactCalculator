@@ -3,7 +3,8 @@ import React from 'react';
 function CalculationHistory(){
   return (
     <div>
-      CalculationHistory Works
+      <h2> Calculation History </h2>
+      <hr></hr>
     </div>
   );
 }
