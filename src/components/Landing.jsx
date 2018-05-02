@@ -3,8 +3,8 @@ import Calculator from './Calculator/Calculator';
 function Landing(){
   return (
     <div>
-      <Calculator/>
       Landing Works!
+      <Calculator/>
     </div>
   );
 }
